@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Order</title>
+		<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body class="order">
+ <!-- navbar for navigation links -->
+		<nav>
+			<li><a class="order" href="home.html">HoMe</a></li>
+			<li><a class="order" href="genre.html">Genre</a></li>
+			<li><a class="order" href="Catalogue">CaTaLoGuE</a></li>
+			<li><a class="order" href="register.html">ReGiStEr!</a></li>
+		</nav>
+ <!-- header containing logo and headings -->
+		<header class="order">
+				<div class="order">
+					<h1>BoOkSlAnD</h1>
+			</div>
+		</header>
+<!--  main containing order as well as user Information -->
+		<main>
+			<div class="banner">
+				<h3>OrDeR YoUr FaVoUrItE BoOks!</h3>
+			</div>
+        <form class="order" id="order" method="get" action="process-form.php">
+				<fieldset class="order">
+					<legend class="order"><h4>Give Us your user id and password!</h4></legend>
+	         <div class="order">
+							<label class="order" for="id">User ID </label>
+							<input type="text" id="id" name="id" required placeholder="satan13" size="20" maxlength="20">
+						</div>
+						<div class="order">
+							<label for="pass">Password </label>
+							<input type="text" id="pw" name="pw" required placeholder="cometohell@satan" size="20" maxlength="20">
+						</div>
+				</fieldset>
+				<fieldset class="order">
+					<legend class="order"><h4>Our Book Shelves!</h4></legend>
+						<div class="order">
+							<h4>For Fantasy Lovers!</h4>
+							<p>
+								<label for="TCB">THE CRUEL BEAUTY</label>
+								<input type="checkbox" name="fantasy" id="TCB" value="TCB">
+							</p>
+							<p>
+								<label for="Fallen">THE Fallen SERIES</label>
+								<input type="checkbox" name="fantasy" id="Fallen" value="Fallen">
+							</p>
+							<p>
+								<label for="TCP">THE CRUEL PRINCE</label>
+								<input type="checkbox" name="fantasy" id="TCP" value="TCP">
+							</p>
+							<h4>For Our Mystry Lovers!</h4>
+							<p>
+								<label for="SOC">SIX OF CROWS</label>
+								<input type="checkbox" name="mystry" id="SOC" value="SOC">
+							</p>
+							<p>
+								<label for="DP">DECEPTION POINT</label>
+								<input type="checkbox" name="mystry" id="DP" value="DP">
+							</p>
+							<p>
+								<label for="CD">CLOSED DOORS</label>
+								<input type="checkbox" name="mystry" id="TC" value="TC">
+							</p>
+							<h4>For Our Romance Lovers!</h4>
+							<p>
+								<label for="PAP">PRIDE AND PREJUDICE</label>
+								<input type="checkbox" name="Romance" id="PAP" value="PAP">
+							</p>
+							<p>
+								<label for="MBY">ME BEFORE YOU</label>
+								<input type="checkbox" name="Romance" id="MBY" value="MBY">
+							</p>
+							<p>
+								<label for="FIOS">FAULT IN OUR STARS</label>
+								<input type="checkbox" name="Romance" id="FIOS" value="FIOS">
+							</p>
+							<h4>For Our Adventure Lovers!</h4>
+							<p>
+								<label for="TA">THE ALCHEMIST</label>
+								<input type="checkbox" name="Adventure" id="TA" value="TA">
+							</p>
+							<p>
+								<label for="TCOT">THE CAVE OF TIME</label>
+								<input type="checkbox" name="Adventure" id="TCOT" value="TCOT">
+							</p>
+							<p>
+								<label for="SAS">SURVIVAL AT SEA</label>
+								<input type="checkbox" name="Adventure" id="SAS" value="SAS">
+							</p>
+						</div>
+						<h4>For Our Horror Lovers!</h4>
+						<p>
+							<label for="IT">IT</label>
+							<input type="checkbox" name="Horror" id="IT" value="IT">
+						</p>
+						<p>
+							<label for="THOHH">THE HAUNTING OF HILL HOUSE</label>
+							<input type="checkbox" name="Horror" id="THOHH" value="THOHH">
+						</p>
+						<p>
+							<label for="TWIB">THE WOMAN IN BLACK</label>
+							<input type="checkbox" name="Horror" id="TWIB" value="TWIB">
+						</p>
+						<h4>For Our Sci-fi Lovers!</h4>
+						<p>
+							<label for="TM">THE MARTIAN</label>
+							<input type="checkbox" name="Sci-fi" id="TM" value="TM">
+						</p>
+						<p>
+							<label for="EG">ENDER'S GAME</label>
+							<input type="checkbox" name="Sci-fi" id="EG" value="EG">
+						</p>
+						<p>
+							<label for="TTM">THE TIME MACHINE</label>
+							<input type="checkbox" name="Sci-fi" id="TTM" value="TTM">
+						</p>
+				</fieldset>
+				<div class="order" style="text-align: center;">
+					<button type="submit">Order!</button>
+				</div>
+		  	</form>
+		</main>
+	 <!-- footer for copyright -->
+		<footer>
+			<p><small>BoOkSlAnD, all rights reserved.</small></p>
+		</footer>
+	</body>
+</html>
